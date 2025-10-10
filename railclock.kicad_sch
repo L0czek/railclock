@@ -3191,218 +3191,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Crystal_GND3"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Y"
-				(at 0 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Crystal_GND3"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Three pin crystal, GND on pin 3"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "quartz ceramic resonator oscillator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Crystal*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Crystal_GND3_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.905 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -1.27) (xy -1.905 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.143 2.54)
-					(end 1.143 -2.54)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy 0 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 1.27) (xy 1.905 -1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Crystal_GND3_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 1.27)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:D"
 			(pin_numbers
 				(hide yes)
@@ -4976,6 +4764,285 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MC-306_32.7680K-A5__ROHS:MC-306_32.7680K-A5__ROHS"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at -2.5445 2.2901 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "MC-306_32.7680K-A5__ROHS"
+				(at -2.5405 -3.8107 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "MC-306_32.7680K-A5__ROHS:OSCL550P800X320X254-4N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "EPSON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "32.768 kHz ±100ppm Crystal 12.5pF 50 kOhms 4-SOJ, 5.50mm pitch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "4-4 Epson"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/MC-306%2032.7680K-A5:%20ROHS/EPSON/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/MC-306%2032.7680K-A5:%20ROHS/EPSON/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "MC-306 32.7680K-A5: ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "Not in stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Seiko Epson Corporation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "MC-306_32.7680K-A5__ROHS_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.016 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.778) (xy -1.016 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.381 1.524) (xy -0.381 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.381 -1.524) (xy 0.381 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 1.524) (xy -0.381 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 -1.524) (xy 0.381 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.778) (xy 1.016 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -9264,6 +9331,12 @@
 		(uuid "312139bc-82f1-47ca-87e3-ecc66864ed1a")
 	)
 	(junction
+		(at 318.77 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3999bf7c-8135-4cb2-83a7-ce4cdd6a7aed")
+	)
+	(junction
 		(at 55.88 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9432,12 +9505,6 @@
 		(uuid "76d67736-0fb0-4e77-9080-396046e99b85")
 	)
 	(junction
-		(at 326.39 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "76fe1029-a95d-43c5-bb1a-b0e3cfcbc015")
-	)
-	(junction
 		(at 313.69 313.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9466,12 +9533,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8dbaa048-c52f-4cae-bab1-9faa2ffb5c4c")
-	)
-	(junction
-		(at 318.77 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8dd7d220-4f50-42e7-bb06-725e712c1096")
 	)
 	(junction
 		(at 251.46 381)
@@ -9622,6 +9683,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0390c7c-e8e9-4435-bcdf-aa641b5431e1")
+	)
+	(junction
+		(at 334.01 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3e87bdb-f3d3-4ef7-a052-d186e9d4de3d")
 	)
 	(junction
 		(at 177.8 218.44)
@@ -10473,6 +10540,16 @@
 	)
 	(wire
 		(pts
+			(xy 318.77 135.89) (xy 321.31 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b283927-d1c4-41cb-a187-6f0972c4f88d")
+	)
+	(wire
+		(pts
 			(xy 318.77 299.72) (xy 318.77 297.18)
 		)
 		(stroke
@@ -11303,7 +11380,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 130.81) (xy 326.39 135.89)
+			(xy 334.01 130.81) (xy 334.01 135.89)
 		)
 		(stroke
 			(width 0)
@@ -12893,7 +12970,7 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 130.81) (xy 326.39 130.81)
+			(xy 308.61 130.81) (xy 334.01 130.81)
 		)
 		(stroke
 			(width 0)
@@ -13600,6 +13677,16 @@
 			(type default)
 		)
 		(uuid "f735df63-04ef-4457-a847-83451953106d")
+	)
+	(wire
+		(pts
+			(xy 331.47 135.89) (xy 334.01 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f766fc73-bf11-4072-a24a-46e652ee517c")
 	)
 	(wire
 		(pts
@@ -18329,6 +18416,165 @@
 		)
 	)
 	(symbol
+		(lib_id "MC-306_32.7680K-A5__ROHS:MC-306_32.7680K-A5__ROHS")
+		(at 326.39 135.89 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1c3aef76-d4a4-4c2f-a53f-258870913493")
+		(property "Reference" "Y1"
+			(at 326.39 129.9675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MC-306_32.7680K-A5__ROHS"
+			(at 326.39 132.3918 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "th:OSCL550P800X320X254-4N"
+			(at 326.39 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 326.39 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 326.39 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "EPSON"
+			(at 326.39 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "32.768 kHz ±100ppm Crystal 12.5pF 50 kOhms 4-SOJ, 5.50mm pitch"
+			(at 326.39 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "4-4 Epson"
+			(at 326.39 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 326.39 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MC-306%2032.7680K-A5:%20ROHS/EPSON/view-part/?ref=eda"
+			(at 326.39 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MC-306%2032.7680K-A5:%20ROHS/EPSON/view-part/?ref=snap"
+			(at 326.39 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "MC-306 32.7680K-A5: ROHS"
+			(at 326.39 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 326.39 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Seiko Epson Corporation"
+			(at 326.39 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54f00ca7-10e1-421b-b484-3a5a8391aa28")
+		)
+		(pin "4"
+			(uuid "2a1157ed-f929-44a1-a5da-dd79d93c8601")
+		)
+		(instances
+			(project ""
+				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
+					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 334.01 386.08 0)
 		(unit 1)
@@ -18660,6 +18906,72 @@
 			(project ""
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "R57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 226.06 306.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20f31d6e-ae79-465f-93ef-20f83cb6c140")
+		(property "Reference" "#PWR0170"
+			(at 226.06 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 226.06 301.9369 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 226.06 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "618fb399-a254-4059-9c33-bc7458ea0511")
+		)
+		(instances
+			(project ""
+				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
+					(reference "#PWR0170")
 					(unit 1)
 				)
 			)
@@ -19685,72 +19997,6 @@
 			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR0159")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 226.06 306.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2cbdf8ee-93a1-40f8-8133-328cd4d058bf")
-		(property "Reference" "#PWR0186"
-			(at 226.06 309.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 226.06 301.9369 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 226.06 306.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 306.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 226.06 306.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9da0a062-3c69-4c4e-96a3-785648885f9f")
-		)
-		(instances
-			(project ""
-				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
-					(reference "#PWR0186")
 					(unit 1)
 				)
 			)
@@ -23546,7 +23792,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 326.39 143.51 0)
+		(at 334.01 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23555,7 +23801,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e057fd5-ffe3-4aba-a400-797b61da5c12")
 		(property "Reference" "#PWR02"
-			(at 326.39 149.86 0)
+			(at 334.01 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23564,7 +23810,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 326.39 147.6431 0)
+			(at 334.01 147.6431 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23572,7 +23818,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 326.39 143.51 0)
+			(at 334.01 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23581,7 +23827,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 326.39 143.51 0)
+			(at 334.01 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23590,7 +23836,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 326.39 143.51 0)
+			(at 334.01 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25792,72 +26038,6 @@
 			(project ""
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 322.58 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "707d17d6-fc13-45db-86f0-97dbfb5a24ab")
-		(property "Reference" "#PWR0170"
-			(at 322.58 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 322.58 145.1031 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 322.58 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 322.58 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 322.58 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3c65dc09-2055-4192-8ffc-9f3caadcec5c")
-		)
-		(instances
-			(project ""
-				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
-					(reference "#PWR0170")
 					(unit 1)
 				)
 			)
@@ -33749,7 +33929,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 318.77 139.7 0)
+		(at 334.01 139.7 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -33758,7 +33938,7 @@
 		(dnp no)
 		(uuid "bba54149-5802-40dd-8cdc-12f169c2229e")
 		(property "Reference" "C2"
-			(at 315.849 138.4878 0)
+			(at 331.089 138.4878 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33767,7 +33947,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 315.849 140.9121 0)
+			(at 331.089 140.9121 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33776,7 +33956,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 317.8048 143.51 0)
+			(at 333.0448 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33785,7 +33965,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 318.77 139.7 0)
+			(at 334.01 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33794,7 +33974,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 318.77 139.7 0)
+			(at 334.01 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35230,7 +35410,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 326.39 139.7 0)
+		(at 318.77 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -35239,7 +35419,7 @@
 		(fields_autoplaced yes)
 		(uuid "c5b04a0f-72d8-4909-8e02-c272dbfd1728")
 		(property "Reference" "C1"
-			(at 329.311 138.4878 0)
+			(at 321.691 138.4878 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35248,7 +35428,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 329.311 140.9121 0)
+			(at 321.691 140.9121 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35257,7 +35437,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 327.3552 143.51 0)
+			(at 319.7352 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35266,7 +35446,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 326.39 139.7 0)
+			(at 318.77 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35275,7 +35455,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 326.39 139.7 0)
+			(at 318.77 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35878,77 +36058,6 @@
 			(project ""
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Crystal_GND3")
-		(at 322.58 135.89 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cc501224-248d-43a0-83f6-646adf061206")
-		(property "Reference" "Y2"
-			(at 322.58 129.1801 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Crystal_GND3"
-			(at 322.58 131.6044 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Crystal:Crystal_DS10_D1.0mm_L4.3mm_Horizontal_1EP_style2"
-			(at 322.58 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 322.58 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Three pin crystal, GND on pin 3"
-			(at 322.58 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9fb750c7-9a41-4110-9253-86eaefe70882")
-		)
-		(pin "3"
-			(uuid "29f9573d-d4ef-4cc8-b36b-7ea39a4285f5")
-		)
-		(pin "1"
-			(uuid "3b673da4-51b1-4f6d-a4a6-fbc8caa54302")
-		)
-		(instances
-			(project ""
-				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
-					(reference "Y2")
 					(unit 1)
 				)
 			)

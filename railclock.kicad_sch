@@ -18000,18 +18000,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "180c2ec6-8cf4-4ff1-854c-d8008b962643")
 		(property "Reference" "U7"
-			(at 200.025 166.3785 0)
+			(at 199.898 165.608 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 200.025 168.0599 0)
+		(property "Value" "TPS73733DCQR"
+			(at 199.898 167.2894 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21652,7 +21651,7 @@
 		(fields_autoplaced yes)
 		(uuid "3f7aa402-ffd1-4ca6-bc19-ec3a71793ee0")
 		(property "Reference" "C25"
-			(at 204.851 24.1878 0)
+			(at 205.74 24.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21660,8 +21659,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 204.851 26.6121 0)
+		(property "Value" "100nF"
+			(at 205.74 26.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25010,7 +25009,7 @@
 		(fields_autoplaced yes)
 		(uuid "69689de4-d3a5-4429-a5a0-63f44b36458e")
 		(property "Reference" "C30"
-			(at 213.741 332.7978 0)
+			(at 214.63 332.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25018,8 +25017,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 213.741 335.2221 0)
+		(property "Value" "100nF"
+			(at 214.63 335.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35697,7 +35696,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "MIC2545"
 			(at 270.51 293.6629 0)
 			(effects
 				(font
@@ -38574,7 +38573,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "r12"
 			(at 227.0252 313.69 0)
 			(effects
 				(font

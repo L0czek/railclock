@@ -4526,6 +4526,155 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:BZV55B7V5"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BZV55B7V5"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_MiniMELF"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "7.5V, 500mW, 2%, Zener diode, MiniMELF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "zener diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*MiniMELF*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BZV55B7V5_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BZV55B7V5_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Driver_Motor:DRV8870DDA"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -9397,6 +9546,12 @@
 		(uuid "5003a67b-a243-4467-954a-64d16bf7cc59")
 	)
 	(junction
+		(at 290.83 375.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51133eac-095b-42b7-b73f-12c7b5feb2ff")
+	)
+	(junction
 		(at 190.5 218.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9793,10 +9948,6 @@
 		(uuid "f713affb-65a3-4723-930d-29478eee66c8")
 	)
 	(no_connect
-		(at 345.44 331.47)
-		(uuid "1e5cb282-f20c-4db0-a744-180318dc0081")
-	)
-	(no_connect
 		(at 246.38 358.14)
 		(uuid "339d2d6b-ed1c-4dbc-bace-53cfbf31b553")
 	)
@@ -9987,6 +10138,16 @@
 			(type default)
 		)
 		(uuid "0e1e27a8-640a-4300-8337-d91cefcd82b7")
+	)
+	(wire
+		(pts
+			(xy 284.48 375.92) (xy 290.83 375.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e6af53b-3008-4329-a78d-b586fa960d15")
 	)
 	(wire
 		(pts
@@ -10660,6 +10821,16 @@
 	)
 	(wire
 		(pts
+			(xy 455.93 364.49) (xy 449.58 364.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "327346b3-2c9b-4123-9264-1127d81e9006")
+	)
+	(wire
+		(pts
 			(xy 447.04 256.54) (xy 461.01 256.54)
 		)
 		(stroke
@@ -11060,6 +11231,26 @@
 	)
 	(wire
 		(pts
+			(xy 290.83 375.92) (xy 290.83 374.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48087ddf-f3a2-4125-a0aa-26c8e6886518")
+	)
+	(wire
+		(pts
+			(xy 455.93 360.68) (xy 455.93 364.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48c88c43-c504-4e39-ba05-4d216f33045d")
+	)
+	(wire
+		(pts
 			(xy 449.58 114.3) (xy 449.58 120.65)
 		)
 		(stroke
@@ -11147,6 +11338,16 @@
 			(type default)
 		)
 		(uuid "51f4a49e-f798-4c1d-82c3-17579db003e4")
+	)
+	(wire
+		(pts
+			(xy 290.83 364.49) (xy 290.83 367.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5293614f-b14c-44ec-80a5-97bb6ec62086")
 	)
 	(wire
 		(pts
@@ -11327,6 +11528,16 @@
 			(type default)
 		)
 		(uuid "602442c2-a111-4863-8f0d-028c0af4ca56")
+	)
+	(wire
+		(pts
+			(xy 434.34 364.49) (xy 439.42 364.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "604b21c8-41b9-482e-901e-e985dbbb3be4")
 	)
 	(wire
 		(pts
@@ -12160,16 +12371,6 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 375.92) (xy 284.48 375.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "951e33d1-911e-44fe-a74e-0b9f97850ffb")
-	)
-	(wire
-		(pts
 			(xy 55.88 88.9) (xy 55.88 90.17)
 		)
 		(stroke
@@ -12670,6 +12871,16 @@
 	)
 	(wire
 		(pts
+			(xy 290.83 375.92) (xy 290.83 377.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b789b711-2153-400f-9065-95fb95a76ee6")
+	)
+	(wire
+		(pts
 			(xy 55.88 90.17) (xy 55.88 91.44)
 		)
 		(stroke
@@ -13100,6 +13311,16 @@
 	)
 	(wire
 		(pts
+			(xy 290.83 384.81) (xy 290.83 387.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2857c51-3f83-4187-9f71-790894f628df")
+	)
+	(wire
+		(pts
 			(xy 481.33 254) (xy 481.33 259.08)
 		)
 		(stroke
@@ -13420,16 +13641,6 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 372.11) (xy 290.83 375.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8b0d321-983c-487b-95c2-2b23b6512505")
-	)
-	(wire
-		(pts
 			(xy 447.04 72.39) (xy 449.58 72.39)
 		)
 		(stroke
@@ -13710,7 +13921,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 360.68) (xy 290.83 364.49)
+			(xy 290.83 353.06) (xy 290.83 356.87)
 		)
 		(stroke
 			(width 0)
@@ -13941,6 +14152,28 @@
 		(uuid "0f5506eb-bd67-4d2a-8173-d48f648f11ad")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 157.2767 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "WAKEUP"
+		(shape input)
+		(at 434.34 364.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "11b7086e-588c-435f-bdfa-2d9c456f62b0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 423.7953 364.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14645,6 +14878,28 @@
 		(uuid "63b911a8-26cd-40e8-a36e-0afea5ea494e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 185.519 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "WAKEUP"
+		(shape input)
+		(at 345.44 331.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "67e86d7a-7218-4b40-bdf8-68895c902c11")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 334.8953 331.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15878,7 +16133,7 @@
 			(uuid "2b32b240-9c41-4a88-bf3f-c40061e31b21")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR0183")
 					(unit 1)
@@ -16010,7 +16265,7 @@
 			(uuid "945e7b31-6ffd-4ff2-9279-11c1e5a69a40")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR080")
 					(unit 1)
@@ -16076,7 +16331,7 @@
 			(uuid "590f07be-4a42-49c7-9f1d-9f8b46db15d4")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR039")
 					(unit 1)
@@ -16211,9 +16466,76 @@
 			(uuid "8534e61b-6d27-4652-a439-583db38c93e0")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 290.83 387.35 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "038283b4-ded0-4073-ab98-9d295b932438")
+		(property "Reference" "#PWR0186"
+			(at 290.83 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 290.83 392.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 290.83 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 290.83 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 290.83 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "386373d4-e7d3-498c-9e04-ec6441fad7ef")
+		)
+		(instances
+			(project "railclock"
+				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
+					(reference "#PWR0186")
 					(unit 1)
 				)
 			)
@@ -16277,7 +16599,7 @@
 			(uuid "c0c16124-5c82-421f-a012-eb3f87ac3da6")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR077")
 					(unit 1)
@@ -16477,7 +16799,7 @@
 			(uuid "045fa418-b62e-4b31-a7c3-8bbb036b4b89")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "R75")
 					(unit 1)
@@ -16543,7 +16865,7 @@
 			(uuid "48eacc02-1c75-485d-9d48-4a6c455aa58f")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR094")
 					(unit 1)
@@ -16613,7 +16935,7 @@
 			(uuid "747fb180-d055-4f4b-a282-03ce1ab865a7")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "R54")
 					(unit 1)
@@ -16819,7 +17141,7 @@
 			(uuid "1484747d-43cc-4d45-ac4a-0635b48e504d")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR07")
 					(unit 1)
@@ -17026,7 +17348,7 @@
 			(uuid "1850b950-261a-4115-b92c-dc642fca58de")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR011")
 					(unit 1)
@@ -17092,7 +17414,7 @@
 			(uuid "23db62f6-9a06-47c9-9411-43db2703b810")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR035")
 					(unit 1)
@@ -17228,7 +17550,7 @@
 			(uuid "49fde4d9-a078-4b32-9c76-e7afe06a6ad4")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR048")
 					(unit 1)
@@ -17434,7 +17756,7 @@
 			(uuid "4abe9447-e1f4-4386-8145-caa1fcec0891")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "R25")
 					(unit 1)
@@ -17500,7 +17822,7 @@
 			(uuid "a0e16a23-fdbc-42d8-bcf9-72a2c26b3887")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR020")
 					(unit 1)
@@ -17573,6 +17895,77 @@
 			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 290.83 381 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14040ea1-508c-43a2-828c-0ad585fa41ea")
+		(property "Reference" "R58"
+			(at 289.052 379.7878 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 289.052 382.2121 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 292.608 381 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 290.83 381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 290.83 381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2be1291-8033-4d82-8f81-36d6afccd5c7")
+		)
+		(pin "2"
+			(uuid "0c81a5d9-bbb7-47fc-8bc5-7a5e253d6a8b")
+		)
+		(instances
+			(project "railclock"
+				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
+					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -17711,7 +18104,7 @@
 			(uuid "e7e455e4-9b46-4c62-a8b0-d2b0dc633965")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR0135")
 					(unit 1)
@@ -17777,7 +18170,7 @@
 			(uuid "02b7cfcd-8dcf-48fa-a076-8a7c56b8efcb")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR0195")
 					(unit 1)
@@ -17843,7 +18236,7 @@
 			(uuid "9eb87432-4ad3-42c2-b7c3-743cfd7d7d30")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR095")
 					(unit 1)
@@ -17909,7 +18302,7 @@
 			(uuid "2612f31b-95e7-4f80-a4d2-e00e9a662f36")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR073")
 					(unit 1)
@@ -17989,7 +18382,7 @@
 			(uuid "80ffabbc-772b-4463-8dc0-83694453b286")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "U7")
 					(unit 1)
@@ -18059,7 +18452,7 @@
 			(uuid "898ea19f-b89d-4188-885a-4db369bfea6b")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "R13")
 					(unit 1)
@@ -18195,7 +18588,7 @@
 			(uuid "97f44d46-6ee6-43b7-b8f2-1fe0baceabb6")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR074")
 					(unit 1)
@@ -18341,7 +18734,7 @@
 			(uuid "bf46d80f-f2af-4eb9-ae1f-139e364f21a4")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "U2")
 					(unit 1)
@@ -18407,7 +18800,7 @@
 			(uuid "e891a7bf-72a1-47de-b117-5a4847ae8555")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR0184")
 					(unit 1)
@@ -18566,7 +18959,7 @@
 			(uuid "2a1157ed-f929-44a1-a5da-dd79d93c8601")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "Y1")
 					(unit 1)
@@ -18635,7 +19028,7 @@
 			(uuid "51f529cd-03a2-41e3-af94-8af899b77043")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "R86")
 					(unit 1)
@@ -18701,7 +19094,7 @@
 			(uuid "8bdeda8b-cece-4961-a158-83d11e3c0fb8")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR01")
 					(unit 1)
@@ -18903,7 +19296,7 @@
 			(uuid "e8d65b44-1f89-45de-b0ce-76850a4f3941")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "R57")
 					(unit 1)
@@ -18969,7 +19362,7 @@
 			(uuid "618fb399-a254-4059-9c33-bc7458ea0511")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR0170")
 					(unit 1)
@@ -19179,7 +19572,7 @@
 			(uuid "dd7fe515-fde0-4e55-9c75-df81bad7f390")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "C3")
 					(unit 1)
@@ -19319,7 +19712,7 @@
 			(uuid "7d5af2ce-953d-487f-a393-f46a8f8e880d")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "D3")
 					(unit 1)
@@ -19532,7 +19925,7 @@
 			(uuid "bdfd5307-bff7-498a-b7c7-cfba844d6403")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR079")
 					(unit 1)
@@ -19598,7 +19991,7 @@
 			(uuid "d7c35b54-5b0c-4136-a41a-1e07530e80d9")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR091")
 					(unit 1)
@@ -19608,7 +20001,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 290.83 360.68 0)
+		(at 290.83 353.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19617,7 +20010,7 @@
 		(fields_autoplaced yes)
 		(uuid "284c65da-4180-4ac0-bb52-d662ce8315e3")
 		(property "Reference" "#PWR069"
-			(at 290.83 364.49 0)
+			(at 290.83 356.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19626,7 +20019,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 290.83 355.6 0)
+			(at 290.83 347.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19634,7 +20027,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 290.83 360.68 0)
+			(at 290.83 353.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19643,7 +20036,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 290.83 360.68 0)
+			(at 290.83 353.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19652,7 +20045,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 290.83 360.68 0)
+			(at 290.83 353.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19664,7 +20057,7 @@
 			(uuid "b0d6fb44-21aa-4b5c-b2ce-2d4902d3d5aa")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR069")
 					(unit 1)
@@ -19730,7 +20123,7 @@
 			(uuid "20a4c86b-51fd-4cb5-b900-760f4a641223")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR093")
 					(unit 1)
@@ -19862,7 +20255,7 @@
 			(uuid "f628d878-4dfd-445c-93ea-c98cb5508864")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR0105")
 					(unit 1)
@@ -19928,7 +20321,7 @@
 			(uuid "d07330d3-3505-47b7-b2c5-20bce8dfff53")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR063")
 					(unit 1)
@@ -20137,7 +20530,7 @@
 			(uuid "0e5aa678-b547-40de-b2bf-4ed7f9455197")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR032")
 					(unit 1)
@@ -20343,7 +20736,7 @@
 			(uuid "ebf83c87-fdf1-4f3a-a872-524bfcbfbf0f")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR0121")
 					(unit 1)
@@ -20413,7 +20806,7 @@
 			(uuid "616c09d8-aee2-4ddb-ac38-9022a54a891f")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "C31")
 					(unit 1)
@@ -20479,7 +20872,7 @@
 			(uuid "6ef08df6-eb28-4c2b-833d-cc2822a1c7bc")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR089")
 					(unit 1)
@@ -20545,7 +20938,7 @@
 			(uuid "616196f8-5385-435c-a272-420412d1c885")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR0126")
 					(unit 1)
@@ -20611,7 +21004,7 @@
 			(uuid "d544cf89-e811-4550-ba85-28b1c81be9f2")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR0194")
 					(unit 1)
@@ -20747,7 +21140,7 @@
 			(uuid "30f3d118-1a58-4a24-bf5f-9c252ccd000d")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "C19")
 					(unit 1)
@@ -20949,7 +21342,7 @@
 			(uuid "78146825-5fb4-407a-8751-abdb8692f33a")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "R55")
 					(unit 1)
@@ -21019,7 +21412,7 @@
 			(uuid "2c4cf415-d5dc-4498-b932-9086b0a7ce2c")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "R6")
 					(unit 1)
@@ -21287,7 +21680,7 @@
 			(uuid "567c5ad1-caae-46e6-811d-6613241627d3")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR099")
 					(unit 1)
@@ -21493,7 +21886,7 @@
 			(uuid "027d6741-acdd-4e8c-8fff-bbd471b5548b")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "C11")
 					(unit 1)
@@ -21629,7 +22022,7 @@
 			(uuid "74c9f0fb-42bd-4a61-83d0-dbd0d2dcdd79")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "C25")
 					(unit 1)
@@ -21893,7 +22286,7 @@
 			(uuid "07af8b7f-14cd-464c-a280-a403d3abf4f3")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR0193")
 					(unit 1)
@@ -21962,7 +22355,7 @@
 			(uuid "ae76c7bf-d964-48ac-9878-faf1b4197848")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "TH1")
 					(unit 1)
@@ -22098,7 +22491,7 @@
 			(uuid "faadba70-fa79-4d94-8c5f-9220a8d1ac5d")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "C20")
 					(unit 1)
@@ -22234,7 +22627,7 @@
 			(uuid "f4f27e7b-06ce-4dc8-8e08-db1c7f0931fc")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "C28")
 					(unit 1)
@@ -22300,7 +22693,7 @@
 			(uuid "359af518-19d8-4682-a5ff-401e945a4478")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR054")
 					(unit 1)
@@ -22366,7 +22759,7 @@
 			(uuid "ac8267a5-31c7-4328-980e-79a415060ae2")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR08")
 					(unit 1)
@@ -22436,7 +22829,7 @@
 			(uuid "fbe9e7c5-1dee-4a47-b2a4-026a3d0e097b")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "C29")
 					(unit 1)
@@ -22502,7 +22895,7 @@
 			(uuid "1c9f5c25-f453-40c8-b517-37d0be62bc8a")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR05")
 					(unit 1)
@@ -22570,7 +22963,7 @@
 			(uuid "0f355ae0-42fa-45cf-b6fd-a5bef1c2040a")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "L1")
 					(unit 1)
@@ -22636,7 +23029,7 @@
 			(uuid "3852cffc-1d14-4458-8e2d-e99f0699eca1")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR06")
 					(unit 1)
@@ -22702,7 +23095,7 @@
 			(uuid "1ace6f03-2031-4203-af76-d1b5959d9170")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR014")
 					(unit 1)
@@ -22768,7 +23161,7 @@
 			(uuid "d989311f-ac50-4db2-bf39-9884e5e04617")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR086")
 					(unit 1)
@@ -22838,7 +23231,7 @@
 			(uuid "f86e00c9-77cb-452a-a1e8-cbc5d0e74d07")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "R85")
 					(unit 1)
@@ -22908,7 +23301,7 @@
 			(uuid "0a773e0d-d882-4534-ba0a-bf6bf222beea")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "C23")
 					(unit 1)
@@ -22978,7 +23371,7 @@
 			(uuid "d03ba228-6f57-4acf-95d8-214848e6a2c4")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "C33")
 					(unit 1)
@@ -23114,7 +23507,7 @@
 			(uuid "4c79bb5d-aba4-4023-9c47-18fafbf96d69")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "R20")
 					(unit 1)
@@ -23180,7 +23573,7 @@
 			(uuid "e7e5c2df-ae7e-40a6-b2a9-ed847c54082b")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR0118")
 					(unit 1)
@@ -23250,7 +23643,7 @@
 			(uuid "9d3f2701-f862-461a-8595-238731ef1521")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "C26")
 					(unit 1)
@@ -23316,7 +23709,7 @@
 			(uuid "0c992cec-8339-4b0b-b799-870dfe55d9c5")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR0142")
 					(unit 1)
@@ -23384,7 +23777,7 @@
 			(uuid "23a22345-ddbe-41cd-b6e4-fad05f630391")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "R84")
 					(unit 1)
@@ -23450,7 +23843,7 @@
 			(uuid "30270ed4-a249-44f4-aa8e-13a60d7570d8")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR018")
 					(unit 1)
@@ -23516,7 +23909,7 @@
 			(uuid "46412b2b-9be4-414c-9eed-76a9387e0b09")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR0187")
 					(unit 1)
@@ -23586,7 +23979,7 @@
 			(uuid "5427186f-02aa-4a56-ba17-e958d1d3f826")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "R24")
 					(unit 1)
@@ -23848,7 +24241,7 @@
 			(uuid "a642997f-310c-4a7a-87b3-09b36e617010")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR02")
 					(unit 1)
@@ -23914,7 +24307,7 @@
 			(uuid "94399435-2f98-4710-bcc2-bb376fc748d6")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR046")
 					(unit 1)
@@ -24120,7 +24513,7 @@
 			(uuid "19444ef7-52b1-43c5-8031-db7dba25110a")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR04")
 					(unit 1)
@@ -24256,7 +24649,7 @@
 			(uuid "9c99d1e6-dfe4-49fb-b4f3-33ee9125ac0d")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "R2")
 					(unit 1)
@@ -24326,7 +24719,7 @@
 			(uuid "e1670382-6d48-4cd7-9e27-a4a91ed24603")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "R19")
 					(unit 1)
@@ -24392,7 +24785,7 @@
 			(uuid "0207b41b-b8cd-4859-8cd7-c76c190ce439")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR0181")
 					(unit 1)
@@ -24462,7 +24855,7 @@
 			(uuid "da3b4763-376b-4069-9de9-6e587f960b0a")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "R4")
 					(unit 1)
@@ -24594,7 +24987,7 @@
 			(uuid "cb31f4d7-c2bf-450f-a1bb-0f584314329a")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR042")
 					(unit 1)
@@ -24918,7 +25311,7 @@
 			(uuid "d51a6f40-3e30-4c27-8944-9b4201f32066")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "U8")
 					(unit 1)
@@ -24988,7 +25381,7 @@
 			(uuid "2a12ce72-94f8-402d-96f4-66e432d3da27")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "C30")
 					(unit 1)
@@ -25054,7 +25447,7 @@
 			(uuid "a2fbbc82-aca9-4a22-9e15-2849208a6af5")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR065")
 					(unit 1)
@@ -25264,7 +25657,7 @@
 			(uuid "e9e25f21-f53e-4c9d-8b8e-c9ce59198e1b")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "R16")
 					(unit 1)
@@ -25407,7 +25800,7 @@
 			(uuid "4e220bd1-df6b-4a9d-a805-a75e730a3a2a")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "J3")
 					(unit 1)
@@ -25477,7 +25870,7 @@
 			(uuid "498ee234-3c8a-43b2-a45a-4e466ff52068")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "R17")
 					(unit 1)
@@ -25543,7 +25936,7 @@
 			(uuid "e29ee0d6-dbca-4687-98a0-3402fa00c75f")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR044")
 					(unit 1)
@@ -25609,7 +26002,7 @@
 			(uuid "9bddb192-d1cf-417a-a130-475580d1529b")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR059")
 					(unit 1)
@@ -25752,7 +26145,7 @@
 			(uuid "7e5fca72-8047-4399-b5ef-0f77174b552f")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "U13")
 					(unit 1)
@@ -25884,7 +26277,7 @@
 			(uuid "d105f9f4-a487-459e-920e-ba2da53ead17")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR072")
 					(unit 1)
@@ -26035,7 +26428,7 @@
 			(uuid "977471c7-6f84-4ff3-9928-273d22506624")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "U4")
 					(unit 1)
@@ -26142,7 +26535,7 @@
 			(uuid "b58e87c8-9100-44c9-9622-0d25f1b169ec")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "J4")
 					(unit 1)
@@ -26210,7 +26603,7 @@
 			(uuid "1a2345a7-90fe-4489-8a31-77747bfcb8aa")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "R42")
 					(unit 1)
@@ -26346,7 +26739,7 @@
 			(uuid "641ce5d8-688c-40de-9414-69d10a9c6bbb")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR0120")
 					(unit 1)
@@ -26420,7 +26813,7 @@
 			(uuid "a5ba0c99-e22d-4e5a-9492-cc7a1b071630")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "Q1")
 					(unit 1)
@@ -26705,7 +27098,7 @@
 			(uuid "818802e8-9de6-41f5-8534-c09de738f061")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR064")
 					(unit 1)
@@ -26982,7 +27375,7 @@
 			(uuid "5c199391-207e-4de5-b233-33794582535c")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR038")
 					(unit 1)
@@ -27050,7 +27443,7 @@
 			(uuid "af9c3774-1166-4dff-8151-b3b4fcd73a76")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "F3")
 					(unit 1)
@@ -27116,7 +27509,7 @@
 			(uuid "8ffc0cc6-4791-441c-9060-69b38c67147f")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR043")
 					(unit 1)
@@ -27322,7 +27715,7 @@
 			(uuid "4dd7da0e-cfd0-44d6-9ccd-c33195a61df7")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "C14")
 					(unit 1)
@@ -27392,7 +27785,7 @@
 			(uuid "a2055e19-2dae-4584-874a-c85647ca6c82")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "C5")
 					(unit 1)
@@ -27528,7 +27921,7 @@
 			(uuid "167696e8-4623-4c5e-9dff-361a232b41e6")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR0134")
 					(unit 1)
@@ -27594,7 +27987,7 @@
 			(uuid "c3279f3c-0316-4364-b20e-ea113a2f1f99")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR0141")
 					(unit 1)
@@ -27730,7 +28123,7 @@
 			(uuid "9efc9526-b693-4322-92d2-d72585f6f05c")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "C4")
 					(unit 1)
@@ -27796,7 +28189,7 @@
 			(uuid "c084d6e1-eb8a-4e58-89df-5e33dcd55604")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR066")
 					(unit 1)
@@ -27862,7 +28255,7 @@
 			(uuid "3013495c-ec50-41cf-8d0d-c28e9417c353")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR071")
 					(unit 1)
@@ -27932,7 +28325,7 @@
 			(uuid "31d8118e-15eb-4a98-9dc6-e4391dbcc835")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "R27")
 					(unit 1)
@@ -27998,7 +28391,7 @@
 			(uuid "44012d54-d871-4b45-a813-cb7ef3e7df97")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR029")
 					(unit 1)
@@ -28064,7 +28457,7 @@
 			(uuid "e233f478-e5da-417e-8755-e4bc9fd7e4fe")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR084")
 					(unit 1)
@@ -28270,7 +28663,7 @@
 			(uuid "de3322a5-9c1c-4294-a134-4656314a48ac")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "C17")
 					(unit 1)
@@ -28340,7 +28733,7 @@
 			(uuid "5ac23f97-f2f3-45ef-8a80-bc7db1a689e1")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "C15")
 					(unit 1)
@@ -28476,7 +28869,7 @@
 			(uuid "6e8a3274-3488-4879-b79d-2311576561dc")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR0104")
 					(unit 1)
@@ -28549,9 +28942,77 @@
 			(uuid "d59aa3f0-29d1-4414-8576-214d907ff2a2")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "RV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 444.5 364.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88a13cc2-f2cb-42a1-9a1f-b640242bb665")
+		(property "Reference" "SW3"
+			(at 444.5 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 444.5 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:Panasonic_EVQPUL_EVQPUC"
+			(at 444.5 364.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 444.5 364.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 444.5 364.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "68f96ba4-1989-4a9e-9ae7-e411cce43bf9")
+		)
+		(pin "1"
+			(uuid "77395304-4300-4e54-a8f5-c70415ab25c6")
+		)
+		(instances
+			(project "railclock"
+				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -28615,7 +29076,7 @@
 			(uuid "f0a6b43c-4df7-4f85-9241-bbf2479cb268")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR096")
 					(unit 1)
@@ -28681,7 +29142,7 @@
 			(uuid "7b59b7c7-3cc7-41cf-9787-41da94e904c6")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR0140")
 					(unit 1)
@@ -28751,7 +29212,7 @@
 			(uuid "939763a1-15d3-44af-b873-1f467480ab3e")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "R12")
 					(unit 1)
@@ -28821,7 +29282,7 @@
 			(uuid "08397dc1-379a-440a-99c3-5612612f147f")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "BT1")
 					(unit 1)
@@ -28887,7 +29348,7 @@
 			(uuid "130ac4c9-cb79-4b88-950c-c1b3a5fa02df")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR037")
 					(unit 1)
@@ -28953,7 +29414,7 @@
 			(uuid "f2a50766-c94b-43a9-ad02-9e26b1266b2e")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR0138")
 					(unit 1)
@@ -29023,7 +29484,7 @@
 			(uuid "84d9127d-bddc-49ea-a934-cb7cad14c40e")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "R31")
 					(unit 1)
@@ -29089,7 +29550,7 @@
 			(uuid "17376e59-a12c-4cf8-9943-a2fcaea71c1e")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR049")
 					(unit 1)
@@ -29155,7 +29616,7 @@
 			(uuid "abaf52fb-41a2-4116-91ff-2c41e03def82")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR0133")
 					(unit 1)
@@ -29241,6 +29702,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:BZV55B7V5")
+		(at 290.83 370.84 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ef58bd1-eda1-4f20-988a-084ef896aec9")
+		(property "Reference" "D20"
+			(at 293.37 369.5699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BZV55B7V5"
+			(at 293.37 372.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(at 286.385 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
+			(at 290.83 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "7.5V, 500mW, 2%, Zener diode, MiniMELF"
+			(at 290.83 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d82fa22a-a4fc-4e6e-8bd9-c52a48e09e60")
+		)
+		(pin "2"
+			(uuid "dd60e3b4-1c31-4ebd-a9b7-6039a4abbeda")
+		)
+		(instances
+			(project "railclock"
+				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 326.39 187.96 0)
 		(unit 1)
@@ -29302,7 +29832,7 @@
 			(uuid "1903c3d0-021b-4075-b6ce-3ce362feed99")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "C7")
 					(unit 1)
@@ -29393,9 +29923,80 @@
 			(uuid "d109842d-d6ee-4b6f-941b-16779461fd7c")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 290.83 360.68 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "905bdd1e-8525-4226-9c2e-67e2cf9f9e4f")
+		(property "Reference" "R56"
+			(at 289.052 359.4678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 289.052 361.8921 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 292.608 360.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 290.83 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 290.83 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1dcff119-d58b-4877-89c1-da27e04842b9")
+		)
+		(pin "2"
+			(uuid "48cd436a-6d3a-4dac-a29f-5a0bfe7c15d8")
+		)
+		(instances
+			(project "railclock"
+				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -29534,7 +30135,7 @@
 			(uuid "008c92a7-90ca-4036-b9fd-c3daa1580acc")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "U11")
 					(unit 1)
@@ -29600,7 +30201,7 @@
 			(uuid "8daadf8f-1e7d-4bcd-91f8-109758aebd64")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR040")
 					(unit 1)
@@ -29666,7 +30267,7 @@
 			(uuid "e8c05d92-4c24-4ca0-a7a2-c397564f1fe6")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR0131")
 					(unit 1)
@@ -29740,7 +30341,7 @@
 			(uuid "883d762a-2987-47a1-8fc9-19a1c0b92967")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "U10")
 					(unit 1)
@@ -29806,7 +30407,7 @@
 			(uuid "650cbe78-448d-4a69-a78f-8a666e5daf02")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR0185")
 					(unit 1)
@@ -29876,7 +30477,7 @@
 			(uuid "05fa7218-b32a-45ad-89d8-76f64cfcb066")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "R14")
 					(unit 1)
@@ -30019,7 +30620,7 @@
 			(uuid "309ef2d5-5170-485e-885f-e9108dda832b")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR0139")
 					(unit 1)
@@ -30085,7 +30686,7 @@
 			(uuid "89328373-c3d1-43fb-99bc-e433f6ba94c9")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR081")
 					(unit 1)
@@ -30151,7 +30752,7 @@
 			(uuid "d96803d0-fbbc-4248-8f7c-742261cccbec")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR025")
 					(unit 1)
@@ -30226,7 +30827,7 @@
 			(uuid "d875b01c-209e-484f-be2c-842a5db712cd")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "J15")
 					(unit 1)
@@ -30292,7 +30893,7 @@
 			(uuid "044e063c-4786-42c4-9e45-42352bc87764")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR050")
 					(unit 1)
@@ -30437,7 +31038,7 @@
 			(uuid "5a38771a-8349-4431-9c65-35aab148817f")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "R43")
 					(unit 1)
@@ -30503,7 +31104,7 @@
 			(uuid "251fa4fa-4424-4b14-a5b5-2b4aa2a8d3b3")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR052")
 					(unit 1)
@@ -30569,7 +31170,7 @@
 			(uuid "086c1e39-e395-4ec6-ae34-268bd3c134f3")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR045")
 					(unit 1)
@@ -30657,7 +31258,7 @@
 			(uuid "ddf15e87-a9c1-468b-9e01-60a9f675736b")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "U1")
 					(unit 1)
@@ -30727,7 +31328,7 @@
 			(uuid "7ffee891-3907-43d2-980e-1a9bf15cf76d")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "R26")
 					(unit 1)
@@ -30793,7 +31394,7 @@
 			(uuid "8e6ee5d9-56b7-43e2-b39f-b18805fc9aca")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR083")
 					(unit 1)
@@ -30995,7 +31596,7 @@
 			(uuid "d44373c8-c52e-4b79-aa71-910378fde0cd")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR056")
 					(unit 1)
@@ -31082,7 +31683,7 @@
 			(uuid "409aaf25-3eb0-4ed1-b2a6-1d5a4d4a1d57")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "D6")
 					(unit 1)
@@ -31218,7 +31819,7 @@
 			(uuid "a2ab9b27-5865-422f-8c07-22054b26dc32")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR047")
 					(unit 1)
@@ -31284,7 +31885,7 @@
 			(uuid "90aab833-8dcf-43d9-b215-4baaa1be3038")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR085")
 					(unit 1)
@@ -31354,7 +31955,7 @@
 			(uuid "c65d4faa-97d3-4987-b4c3-3fbf313e8ae0")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "C24")
 					(unit 1)
@@ -31425,7 +32026,7 @@
 			(uuid "327941cc-937b-44eb-a308-50faa5ea5393")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "J1")
 					(unit 1)
@@ -31561,7 +32162,7 @@
 			(uuid "4d03d755-90c9-4cd3-881b-ac23f0ea2521")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR090")
 					(unit 1)
@@ -31701,7 +32302,7 @@
 			(uuid "a03ecba2-09fb-415e-8d41-7377489e6e9e")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "C10")
 					(unit 1)
@@ -31771,7 +32372,7 @@
 			(uuid "95a089d0-b5d0-4151-8e61-efb262ea31c9")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "R40")
 					(unit 1)
@@ -31841,7 +32442,7 @@
 			(uuid "6aa36534-de36-4549-83e7-fa14a68f1ae4")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "R30")
 					(unit 1)
@@ -31973,7 +32574,7 @@
 			(uuid "b09fce4f-02fa-456a-8a81-5d3eb7203a00")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR0100")
 					(unit 1)
@@ -32039,7 +32640,7 @@
 			(uuid "b90e8102-5497-4c68-b03e-8b2b8d744b2a")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR051")
 					(unit 1)
@@ -32109,7 +32710,7 @@
 			(uuid "e9ae81bb-1d8e-4797-bd21-466c591d3496")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "R18")
 					(unit 1)
@@ -32463,7 +33064,7 @@
 			(uuid "5d73b5f3-d6af-4310-8276-3e112e11e838")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR067")
 					(unit 1)
@@ -32747,7 +33348,7 @@
 			(uuid "0989e835-0533-4621-b44c-72255a79b3f7")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR0176")
 					(unit 1)
@@ -32961,7 +33562,7 @@
 			(uuid "d38f5cf2-4246-4518-beb5-416fa0a202cd")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "J9")
 					(unit 1)
@@ -33027,7 +33628,7 @@
 			(uuid "31852bd4-3aa2-495b-ab1d-6b737836ecfe")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR033")
 					(unit 1)
@@ -33097,7 +33698,7 @@
 			(uuid "b5ac7c7c-d6fc-4659-a051-3f3323afded0")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "R44")
 					(unit 1)
@@ -33237,7 +33838,7 @@
 			(uuid "43b3c01e-4d23-4483-9afa-38ffda4a8abb")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "SW1")
 					(unit 1)
@@ -33375,7 +33976,7 @@
 			(uuid "78a0cb44-0689-4874-843d-91bb77f8a634")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "R7")
 					(unit 1)
@@ -33441,7 +34042,7 @@
 			(uuid "d8af215c-ead3-4281-a44a-90f2f9eb6b05")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR017")
 					(unit 1)
@@ -33507,7 +34108,7 @@
 			(uuid "691b2b73-0d9f-415e-8c21-2fd7470bef60")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR076")
 					(unit 1)
@@ -33577,7 +34178,7 @@
 			(uuid "49a045d9-7084-411a-9dd8-37277a053940")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "C18")
 					(unit 1)
@@ -33643,7 +34244,7 @@
 			(uuid "c5199e4c-07c6-4592-bb89-b05823ace588")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR031")
 					(unit 1)
@@ -33709,7 +34310,7 @@
 			(uuid "ef77e189-3f44-42bf-91a2-a281a70b16e0")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR0117")
 					(unit 1)
@@ -33849,7 +34450,7 @@
 			(uuid "ec52d9b0-6903-4b8d-a011-8212b50fc70d")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "R9")
 					(unit 1)
@@ -33989,7 +34590,7 @@
 			(uuid "bd1a9db2-f718-435d-adbb-573f722489db")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "C2")
 					(unit 1)
@@ -34253,7 +34854,7 @@
 			(uuid "28552591-71ae-42db-989f-864b11da70bd")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR082")
 					(unit 1)
@@ -34323,7 +34924,7 @@
 			(uuid "6f605dea-0c68-41ee-ac64-2221d39d2ee2")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "R10")
 					(unit 1)
@@ -34393,7 +34994,7 @@
 			(uuid "c4daa733-86f4-46b7-befc-fc26ebb8b0dd")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "D2")
 					(unit 1)
@@ -34595,7 +35196,7 @@
 			(uuid "84dc52eb-2dd5-400d-b8b9-dd0c8a3f5f43")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR021")
 					(unit 1)
@@ -34727,7 +35328,7 @@
 			(uuid "ed46de58-3165-4b79-a76b-7ed83950dfa7")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR023")
 					(unit 1)
@@ -34797,7 +35398,7 @@
 			(uuid "2b3c7656-ac87-4806-bc5c-8d1c8e54005c")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "C9")
 					(unit 1)
@@ -34863,7 +35464,7 @@
 			(uuid "2797bd71-9ede-45cf-bb5b-c9970b3839b5")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR0102")
 					(unit 1)
@@ -34927,7 +35528,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "H1")
 					(unit 1)
@@ -35059,7 +35660,7 @@
 			(uuid "a5bc9fe7-1723-4357-83cc-e2f2824d1f90")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR09")
 					(unit 1)
@@ -35199,7 +35800,7 @@
 			(uuid "44db9d94-9cbf-4f98-9768-1857844bcfc2")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "R15")
 					(unit 1)
@@ -35265,7 +35866,7 @@
 			(uuid "db5d38c4-9ba2-42be-82e2-d633df32d24f")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR060")
 					(unit 1)
@@ -35334,7 +35935,7 @@
 			(uuid "0ea10329-1404-4095-a14f-b29226659779")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "C6")
 					(unit 1)
@@ -35400,7 +36001,7 @@
 			(uuid "0fc4ea3b-f440-42e4-b4da-908cf2725aa9")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR0108")
 					(unit 1)
@@ -35470,7 +36071,7 @@
 			(uuid "77285b1c-83b0-417f-8c2b-bddf44c6dcbb")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "C1")
 					(unit 1)
@@ -35536,7 +36137,7 @@
 			(uuid "3d71d9eb-e55c-4d9e-bcef-74a212885ea6")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR034")
 					(unit 1)
@@ -35602,7 +36203,7 @@
 			(uuid "6eb5510b-a34f-4fa7-a439-b617e20d9a41")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR098")
 					(unit 1)
@@ -35688,7 +36289,7 @@
 			(uuid "fdf626af-b6fe-4303-b3fa-522b68f65f53")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "U3")
 					(unit 1)
@@ -35779,7 +36380,7 @@
 			(uuid "9dc2b7d5-64fe-46a0-826d-326486292b5f")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "U6")
 					(unit 1)
@@ -35845,7 +36446,7 @@
 			(uuid "a96873b5-3902-490b-8e78-5862e80a9a99")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR0177")
 					(unit 1)
@@ -36055,7 +36656,7 @@
 			(uuid "a925b0ca-b6dd-406d-bcf2-6c673146cb5c")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "C16")
 					(unit 1)
@@ -36121,7 +36722,7 @@
 			(uuid "651a5711-39f6-485a-87e2-4a63fb02a71e")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR092")
 					(unit 1)
@@ -36323,7 +36924,7 @@
 			(uuid "61d9db36-1e5f-44da-8760-ddbbc9fb4f3f")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR087")
 					(unit 1)
@@ -36463,7 +37064,7 @@
 			(uuid "4a54bb4e-1c69-4271-9228-9fb509d3b8a0")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "R66")
 					(unit 1)
@@ -36531,7 +37132,7 @@
 			(uuid "209b47d8-cfa5-4168-a4a5-6a2071748c99")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "F1")
 					(unit 1)
@@ -36601,7 +37202,7 @@
 			(uuid "64144b0f-bb0c-4bab-ba85-045e9bd0f72c")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "R11")
 					(unit 1)
@@ -36803,7 +37404,7 @@
 			(uuid "b3b08b7b-06aa-4a39-96ba-47ff4b350f95")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR013")
 					(unit 1)
@@ -36869,7 +37470,7 @@
 			(uuid "30af14a1-01f1-4b0d-8c55-9b8ccf134c5b")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR041")
 					(unit 1)
@@ -36939,7 +37540,7 @@
 			(uuid "2cfa909e-a074-42a2-8ab5-9fde928beea1")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "R41")
 					(unit 1)
@@ -37005,7 +37606,7 @@
 			(uuid "4ffa662b-fd6c-4a80-849c-1322aa9f9ca4")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR0174")
 					(unit 1)
@@ -37071,7 +37672,7 @@
 			(uuid "b33319ac-1c15-43c7-930c-797f8c0bbf74")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR058")
 					(unit 1)
@@ -37137,7 +37738,7 @@
 			(uuid "0920a621-2d72-4d7c-b072-c079f53fefca")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR03")
 					(unit 1)
@@ -37215,7 +37816,7 @@
 			(uuid "88c318ef-84c0-4180-9cb1-8d9e10f903f3")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "J11")
 					(unit 1)
@@ -37285,7 +37886,7 @@
 			(uuid "68730e98-1096-414d-873f-e2b3ee42161d")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "R65")
 					(unit 1)
@@ -37355,7 +37956,7 @@
 			(uuid "42a0f430-8acc-458a-a7f3-2dd2b4488eba")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "D10")
 					(unit 1)
@@ -37421,7 +38022,7 @@
 			(uuid "d1df2d45-0821-43c4-a30d-2477e3a284a5")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR057")
 					(unit 1)
@@ -37487,7 +38088,7 @@
 			(uuid "d9ea158d-c6cf-4a12-b187-720c3114695c")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR075")
 					(unit 1)
@@ -37693,7 +38294,7 @@
 			(uuid "8bdb2bb8-f6c8-4afb-b22d-e62756d05031")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "C22")
 					(unit 1)
@@ -37917,7 +38518,7 @@
 			(uuid "f4b45b71-c4a0-49c8-99e5-51a7de022c39")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "U9")
 					(unit 1)
@@ -38049,7 +38650,7 @@
 			(uuid "5b96cbcf-0643-40f9-afce-72457d21ddc2")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR0172")
 					(unit 1)
@@ -38119,7 +38720,7 @@
 			(uuid "f1e5b573-9a38-4f58-9ca5-6d86efca88dc")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "R1")
 					(unit 1)
@@ -38189,7 +38790,7 @@
 			(uuid "27f0fbb8-5aaf-484e-b764-bbadac6fa67d")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "C21")
 					(unit 1)
@@ -38333,7 +38934,7 @@
 			(uuid "7b7cab90-bab9-4dd4-9c20-b9a1d2ec3d8c")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR036")
 					(unit 1)
@@ -38399,7 +39000,7 @@
 			(uuid "1bfec5e3-2efa-41e9-814f-7fe4dcc27a11")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR030")
 					(unit 1)
@@ -38539,7 +39140,7 @@
 			(uuid "d2126c81-b499-4347-ad60-716830ef1ad9")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "C32")
 					(unit 1)
@@ -38609,7 +39210,7 @@
 			(uuid "319d8b15-627f-4a75-88ab-fef9d7e63b64")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "R23")
 					(unit 1)
@@ -38675,7 +39276,7 @@
 			(uuid "1b16fed1-01c2-416d-af71-17a068d07b83")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR0190")
 					(unit 1)
@@ -38807,7 +39408,7 @@
 			(uuid "1d0fb3b4-84c6-4cbd-b13d-7f4ebff5125a")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR062")
 					(unit 1)
@@ -38873,7 +39474,7 @@
 			(uuid "2d795db5-a51a-4f3e-86d6-63322fb80054")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR0189")
 					(unit 1)
@@ -38943,7 +39544,7 @@
 			(uuid "86e6f9aa-a515-42e4-965f-3f2f8552e5e9")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "R8")
 					(unit 1)
@@ -39075,7 +39676,7 @@
 			(uuid "0d4f467f-450d-428b-893a-0f12a7be29c8")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR028")
 					(unit 1)
@@ -39207,7 +39808,7 @@
 			(uuid "562435b3-8d17-42fa-a360-cbb5bea3af01")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR061")
 					(unit 1)
@@ -39273,7 +39874,7 @@
 			(uuid "987d7554-313b-4527-b1ec-ad1e7dd1939d")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR068")
 					(unit 1)
@@ -39339,7 +39940,7 @@
 			(uuid "54f35a5a-3f32-4afb-88cf-b238cbf26a43")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR0137")
 					(unit 1)
@@ -39405,7 +40006,7 @@
 			(uuid "b0752aad-8f53-46a3-9b54-6a4ac6f0e0a5")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR078")
 					(unit 1)
@@ -39471,7 +40072,7 @@
 			(uuid "ef90accc-11ae-4246-84c6-f5184a5c0f6b")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR0136")
 					(unit 1)
@@ -39607,7 +40208,7 @@
 			(uuid "d8f4cada-7eed-431d-b08c-436ef8dff6b2")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR053")
 					(unit 1)
@@ -39677,7 +40278,7 @@
 			(uuid "bfb68162-ba4f-4dc4-befd-423c3bed0d27")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "R22")
 					(unit 1)
@@ -39743,7 +40344,7 @@
 			(uuid "fbad81ce-a28d-4207-8101-4c98295aa2eb")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR012")
 					(unit 1)
@@ -39811,7 +40412,7 @@
 			(uuid "65589751-3fab-46ed-8f34-7994838e6316")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "L2")
 					(unit 1)
@@ -39905,7 +40506,7 @@
 			(uuid "d96ee10b-77fd-4f2a-9954-e1b5187f273b")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "U12")
 					(unit 1)
@@ -40037,7 +40638,7 @@
 			(uuid "7cd559d1-47d0-4b32-86ff-611c05996223")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR070")
 					(unit 1)
@@ -40239,7 +40840,7 @@
 			(uuid "92bb79ef-deea-44dc-bdc1-64b857414f13")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "R3")
 					(unit 1)
@@ -40375,7 +40976,7 @@
 			(uuid "c9cc5475-d429-4c7d-ac66-e3e894a8f18d")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR0119")
 					(unit 1)
@@ -40593,7 +41194,7 @@
 			(uuid "921c4f0b-1f46-45a6-8e9e-a48b1f9b6b3e")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "SW2")
 					(unit 1)
@@ -40733,7 +41334,7 @@
 			(uuid "d93e95b8-5b92-4784-b0f1-72e1e22e27db")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "R5")
 					(unit 1)
@@ -40935,7 +41536,7 @@
 			(uuid "af580944-b8a3-4dd0-a27b-77fcfbf06f5e")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR088")
 					(unit 1)
@@ -41076,7 +41677,7 @@
 			(uuid "7b2de169-4b6f-4165-bf83-a495d04584e8")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR0103")
 					(unit 1)
@@ -41278,9 +41879,75 @@
 			(uuid "37faca07-056e-4031-9054-df3a8c066b28")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 455.93 360.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5264a8f-eab3-4747-baa9-d85087518719")
+		(property "Reference" "#PWR0192"
+			(at 455.93 364.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 455.93 356.5469 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 455.93 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 455.93 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 455.93 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ac0e06b-d410-49d1-aede-cd510b4f2b9c")
+		)
+		(instances
+			(project "railclock"
+				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
+					(reference "#PWR0192")
 					(unit 1)
 				)
 			)
@@ -41344,7 +42011,7 @@
 			(uuid "810bdf8f-4220-4e19-bb1d-38f03ed2b2ff")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR0114")
 					(unit 1)
@@ -41410,7 +42077,7 @@
 			(uuid "dd641b15-66e5-43a2-aad5-8647f3bbc1af")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR097")
 					(unit 1)
@@ -41480,7 +42147,7 @@
 			(uuid "22c8d1f5-d685-453a-97b6-6f8d6cd16531")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "BT2")
 					(unit 1)
@@ -41546,7 +42213,7 @@
 			(uuid "1895ceb2-1700-4132-b2aa-ab30e8292191")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR019")
 					(unit 1)
@@ -41678,7 +42345,7 @@
 			(uuid "48d3dd4a-787a-44c8-8cbe-6da205dbedd3")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR0188")
 					(unit 1)
@@ -41744,7 +42411,7 @@
 			(uuid "9472ee32-88e3-41bd-8b7e-5918d0d7d464")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR0143")
 					(unit 1)
@@ -41810,7 +42477,7 @@
 			(uuid "a7b4521b-5f03-4301-b1ee-d58f10e1f27d")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR015")
 					(unit 1)
@@ -41876,79 +42543,9 @@
 			(uuid "67d5b8be-b0db-444a-b58a-3d65d5126565")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 290.83 368.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fe0912ca-4727-4033-bf86-17b01762584f")
-		(property "Reference" "R21"
-			(at 293.37 367.0299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10M"
-			(at 293.37 369.5699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 289.052 368.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 290.83 368.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 290.83 368.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e7e96dfb-6aa9-4d3b-8652-dcefcd375c6d")
-		)
-		(pin "1"
-			(uuid "2f8d3dcc-eb6e-4f5c-b9c9-3c5a98ae509a")
-		)
-		(instances
-			(project ""
-				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
-					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -42012,7 +42609,7 @@
 			(uuid "acb54da6-78e7-4422-ae8e-83d3548ce36b")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR0132")
 					(unit 1)
@@ -42078,7 +42675,7 @@
 			(uuid "a6100cb8-15d0-4ebb-8924-e1cfbb7decc1")
 		)
 		(instances
-			(project ""
+			(project "railclock"
 				(path "/71c294ea-34fb-45c6-bd1a-39b5fd80c5b5"
 					(reference "#PWR010")
 					(unit 1)
